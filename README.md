@@ -4,7 +4,7 @@
 
 ## Dataset
 Flickr8k dataset consisted of 8091 images and 40445 captions. Each image in the dataset will correspond to 5 picture captions.
-The datasets is from Pytorch and is available on https://www.kaggle.com/datasets/adityajn105/flickr8k \
+The datasets is from Pytorch and is available on https://www.kaggle.com/datasets/adityajn105/flickr8k
 ##### Data Preprecessing
 Image: We resize the image to 256*256, then use CenterCrop to crop the edges of the image. The final size of the images will be 224*224. \
 Caption: We uniformly convert letters to lowercase, and add <start>, <end> before and after the captions!
